@@ -94,5 +94,5 @@ def util():
     download_s3(bucket, filename)
     # delete_bucket(bucket, region)
     download_s3(bucket, filename, get_temp_access())
-
+    
 util()
